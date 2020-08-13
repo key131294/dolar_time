@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- https://www.facebook.com/okeycode/ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Okey</title>
+    <link rel="shortcout icon" href="iconOk.png">
+
+</head>
+
+<body class="fondo">
+    <!-- NAVBAR-INICIO -->
+
+    <nav class="container-fluid navbar navbar-expand-lg navbar-dark dave sticky-top">
+        <a class="navbar-brand" href="#"><img src="iconOk.png" class="mx-3 icono rounded rounded-circle" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contactame <span class="sr-only">(current)</span></a>
+                </li>
+
+
+            </ul>
+            <a class="navbar-brand" href="https://www.facebook.com/okeycode/"><img src="65541441_2376814929050661_6395273129140158464_n.jpg"
+                    class="icono rounded rounded-circle" alt=""></a>
+        </div>
+    </nav>
+
+    
+    <div class="container">
+        <div class="container" id="alerta"></div>
+        <!-- NAVBAR-FIN -->
+        <h1 class="text-center my-3 text-white-50 mx-5">Cambio</h1>
+
+
+        <!-- cards -->
+        <div class="row text-center">
+            <div class="col-lg-6 my-2">
+                <!-- <div class="card bg-dark text-white"> -->
+                    <img src="gold-2048293_640.jpg" class="shadow-lg rounded rounded-0 dando img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title text-white">Precio de Compra</h2> <br>
+                        <h3  class="text-white"><strong id="dolar"></strong></h3>
+                        <p id="enlace"></p>
+                    </div>
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-6 my-2">
+                <!-- <div class="card bg-dark text-white"> -->
+                    <img src="gold-2048293_640.jpg" class="shadow-lg rounded rounded-0 dando img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title text-white">Precio de Venta</h3>
+                         <br>
+                         
+                        <h3 class="text-white"><strong id="venta"></strong></h3>
+                        <p id="enlace"></p>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <!-- cards -->
+
+
+<!-- <img src="success-4705451_640.jpg" class="w-100" alt=""> -->
+        
+        <div class="  text-dark my-3" id="foto">
+            <input type="number" class="form-control" id="numero" placeholder="Calcula tu moneda aqui">
+            <div class="container-fluid text-center">
+                
+                <h3 class="text-center mt-3" id="titulo1"></h3>
+                <div class="row">
+                    <div class=" col-lg-6 " id="resultado">
+                    </div>
+                    <div class="col-lg-6 " id="resultado2">
+                    </div>
+                </div>
+                
+                <h3 class="text-center mt-3" id="titulo2"></h3>
+                <div class="row">
+                    <div class=" col-lg-6 " id="resultado3">
+                    </div>
+                    <div class="col-lg-6 " id="resultado4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" fixed-bottom w-75" id="dos"></div>
+
+    <script src="app.js"></script>
+    <script src="app1.js"></script>
+    <!-- <script src="app1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

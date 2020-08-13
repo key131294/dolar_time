@@ -1,0 +1,78 @@
+body::-webkit-scrollbar {
+    width: 12px;
+ background-color: blue;
+
+}
+
+body::-webkit-scrollbar:hover {
+    width: 12px;
+    background-color: rgb(39, 39, 110);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(39, 39, 110);
+    /* background: linear-gradient(rgba(255, 0, 0, 0.479), rgba(0, 0, 0, 0.438), rgba(255, 0, 0, 0.479), black, rgba(255, 0, 0, 0.479)); */
+    border-radius: 60px;
+
+}   
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(57, 57, 223);
+    /* background: linear-gradient(rgba(255, 0, 0, 0.479), rgba(0, 0, 0, 0.438), rgba(255, 0, 0, 0.479), black, rgba(255, 0, 0, 0.479)); */
+    /* border-radius: 60px;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red; */
+
+}
+
+
+.tmn{
+    font-size: 20px;
+}
+
+.tmn2{
+    font-size: 15px;
+}
+
+.dave{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    /* background: linear-gradient(rgb(235, 27, 27), rgba(0, 0, 0, 0.137)); */
+    
+}
+
+.fondo{
+
+    background: #7090ca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #243B55, #293e64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    /* background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526);  */
+    
+}
+
+.icono{
+    width: 30px;
+    /* height: 40px; */
+    /* shadow: aqua; */
+}
+.talla{
+    font-size:30px
+}
+
+.foto{
+    background: url('success-4705451_640.jpg');
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
